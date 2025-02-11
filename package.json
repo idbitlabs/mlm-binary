@@ -1,0 +1,39 @@
+{
+    "name": "mlm-binary-project",
+    "version": "1.0.0",
+    "description": "MLM Binary Smart Contract with Frontend Integration",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "compile": "npx hardhat compile",
+        "deploy": "npx hardhat run scripts/deploy.js --network polygonAmoy",
+        "test": "npx hardhat test"
+    },
+    "dependencies": {
+        "@ankr.com/ankr.js": "^0.5.2",
+        "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+        "@openzeppelin/contracts": "^4.8.0",
+        "dotenv": "^16.0.3",
+        "ethers": "^5.7.0",
+        "hardhat": "^2.16.1",
+        "next": "latest",
+        "react": "latest",
+        "react-dom": "latest"
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "@types/react": "latest",
+        "@types/react-dom": "latest"
+    },
+    "keywords": [
+        "blockchain",
+        "mlm",
+        "smart-contract",
+        "polygon",
+        "nextjs",
+        "ethers"
+    ],
+    "author": "Your Name",
+    "license": "MIT"
+}
